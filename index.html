@@ -154,7 +154,7 @@
                         <li><strong>Text Encoder: </strong> T5-large with max_length = 128, cond_dim = 1536.</li>
                         <li><strong>Audio Encoder/Decoder: </strong> EnCodec 16 kHz with 4 codebooks × 2048 bins.</li>                      
                         <li>
-                          <strong>Optimizer: </strong> AdamW with learning rate = 5e-5, betas = (0.9, 0.999), weight decay = 1e-3;<br>
+                          <strong>Optimizer: </strong> Adam with learning rate = 5e-5, betas = (0.9, 0.999), weight decay = 1e-3;<br>
                           <span style="margin-left: 89px;">Learning rate scheduler = InverseLR (inv_gamma = 1e6, power = 0.5, warmup = 0.99).</span>
                         </li>
                         <!-- <li><strong>Four Loss weights: </strong> cross_entropy_left = 0.25, cross_entropy_right = 0.25, cross_entropy_all = 0.5, dis = 0.3.</li> -->
